@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RulesWindow</class>
+ <widget class="QMainWindow" name="RulesWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>460</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>700</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Freecell</string>
+     </attribute>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>700</width>
+        <height>480</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Freecell Rules&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana,Geneva,Arial,Helvetica,sans-serif'; font-size:10pt; font-weight:792; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana,Geneva,Arial,Helvetica,sans-serif'; font-size:10pt; font-weight:792; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana,Geneva,Arial,Helvetica,sans-serif'; font-size:12pt; font-weight:792; color:#000000;&quot;&gt;Objective&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Create four stacks of 13 cards, one per suit in each of the four foundation cells. Each stack must be built from ace to king.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana,Geneva,Arial,Helvetica,sans-serif'; font-size:12pt; font-weight:792; color:#000000;&quot;&gt;Table Layout&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Freecell is played with a single deck of 52 cards, dealt face up into eight columns. You'll draw from these columns to build four stacks:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:7px; margin-left:26px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt; In the upper-left corner are four &lt;/span&gt;&lt;span style=&quot; font-family:'WOL_SB,Segoe UI Semibold,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;free cells&lt;/span&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;, where you temporarily store cards during play.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:7px; margin-left:26px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt; In the upper-right corner are four &lt;/span&gt;&lt;span style=&quot; font-family:'WOL_SB,Segoe UI Semibold,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;foundation cells&lt;/span&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;, where you build the stacks needed to win.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial,helvetica,sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Moves&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Draw cards from the bottom of each column and move them in the following ways:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:7px; margin-left:26px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Bold,Segoe UI Bold,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;* From column to free cell.&lt;/span&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt; Only one card can occupy each free cell at a time.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:7px; margin-left:26px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Bold,Segoe UI Bold,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;* From column to column (or free cell to column).&lt;/span&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt; Cards must be placed on a column in descending sequential order, and alternating red and black.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:7px; margin-left:26px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Bold,Segoe UI Bold,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;* From column to home cell.&lt;/span&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt; Each stack must consist of a single suit, and start with an ace.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:7px; margin-left:26px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:9pt; color:#4a4a4a;&quot;&gt;Credit: http://windows.microsoft.com/en-us/windows/freecell-how-to#1TC=windows-7&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Klondike</string>
+     </attribute>
+     <widget class="QTextBrowser" name="textBrowser">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>700</width>
+        <height>480</height>
+       </rect>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Klondike Rules&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana,Geneva,Arial,Helvetica,sans-serif'; font-size:10pt; font-weight:792; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana,Geneva,Arial,Helvetica,sans-serif'; font-size:10pt; font-weight:792; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana,Geneva,Arial,Helvetica,sans-serif'; font-size:12pt; font-weight:792; color:#000000;&quot;&gt;Objective&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Build four stacks of cards, one for each suit, in ascending order, from ace to king.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana,Geneva,Arial,Helvetica,sans-serif'; font-size:12pt; font-weight:792; color:#000000;&quot;&gt;Table Layout&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Klondike is played with a single deck of 52 cards. The game begins with 28 cards arranged into seven columns. The first column contains one card, the second has two cards, and so on. The top card in each column is face up, the rest are face down.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:15px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Four &lt;/span&gt;&lt;span style=&quot; font-family:'WOL_SB,Segoe UI Semibold,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;Foundation stacks&lt;/span&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt; are positioned at the upper-right corner. This is where you build the piles needed to win.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial,helvetica,sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Moves&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:15px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Each foundation stack must start with an ace. If you don't have any, you'll have to move cards between columns until you uncover one. You can't move cards between columns at random, however. Columns must be built in descending order, from king to ace. Cards in columns must also alternate red and black.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:15px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;You can also move sequentially organized &lt;/span&gt;&lt;span style=&quot; font-family:'WOL_SB,Segoe UI Semibold,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; font-weight:600; color:#000000;&quot;&gt;piles&lt;/span&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt; of cards between columns. Just click the deepest card in the run and drag them all to another column. If you run out of moves, you'll have to draw more cards by clicking the deck in the upper-left corner. If the deck runs out, click its outline on the table to reshuffle it.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:15px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:9pt; color:#4a4a4a;&quot;&gt;Credit: http://windows.microsoft.com/en-us/windows/klondike-how-to#1TC=windows-7&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Spider</string>
+     </attribute>
+     <widget class="QTextEdit" name="textEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>700</width>
+        <height>480</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Spider Rules&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana,Geneva,Arial,Helvetica,sans-serif'; font-size:10pt; font-weight:792; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana,Geneva,Arial,Helvetica,sans-serif'; font-size:10pt; font-weight:792; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana,Geneva,Arial,Helvetica,sans-serif'; font-size:12pt; font-weight:792; color:#000000;&quot;&gt;Objective&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Remove all the cards from the table in the fewest number of moves.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:14px; margin-bottom:7px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Verdana,Geneva,Arial,Helvetica,sans-serif'; font-size:12pt; font-weight:792; color:#000000;&quot;&gt;Table Layout&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:15px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Spider Solitaire is played with two decks of cards. In this version, the deck consists entirely of Spades. The cards are arranged in ten columns. The top card in each column is face up, the rest are face down. The remaining cards are piled in the lower-right corner of the table.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:15px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'arial,helvetica,sans-serif'; font-size:12pt; font-weight:600; color:#000000;&quot;&gt;Moves&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:15px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;To win, you must remove all the cards from the table by building columns organized in descending order, from king to ace. When you succeed in building a sequentially-ordered column, it can be removed.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:15px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;You may move an entire run of cards of any size as long as the cards are in sequential order from largest to smallest. If you run out of moves, click the pile at the bottom of the table and a new row of cards will be dealt.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:15px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:20px;&quot;&gt;&lt;span style=&quot; font-family:'WOL_Reg,Segoe UI,Tahoma,Helvetica,sans-serif'; font-size:9pt; color:#4a4a4a;&quot;&gt;Credit: http://windows.microsoft.com/en-us/windows/spider-solitaire-how-to#1TC=windows-7&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
